@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+.profile__wrapper {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.profile__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+
+.title__btn {
+  display: flex;
+  width: 16rem;
+  height: 5rem;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.profile__img {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+
+.profile__name {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.profile__job {
+  display: flex;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.profile__info {
+  display: flex;
+  margin-left: 15rem;
+}
+
+.profile__info--titles {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.profile__info--title {
+  margin-bottom: 0.5rem;
+}
+
+.profile__info--descriptions {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.profile__info--description {
+  margin-bottom: 0.5rem;
+}
+
+.profile__about {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 2rem;
+}
+
+.resume {
+    margin-bottom: 2rem;
+}
+
+.resume__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 4rem;
+}
+
+.resume__education {
+  margin-right: 2rem;
+}
+
+.resume__education--title {
+  margin-top: 1rem;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.resume__education--row {
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* .resume__education--date {
+} */
+
+/* .resume__education--name {
+} */
+
+.resume__education--major {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.resume__education--description {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.resume__skills {
+  padding: 0;
+}
+
+.skills {
+  padding-left: 2rem;
+  margin-top: 20px;
+}
+
+.skill {
+  display: flex;
+  margin-bottom: 20px;
+}
+.skill-title {
+  width: 100px;
+  text-align: left;
+}
+.skill-progress {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.bar {
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+}
+
+.bar > div {
+  text-align: left;
+  padding-left: 5px;
+}
